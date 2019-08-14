@@ -1,0 +1,128 @@
+.grid-list:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-list .grid-cell{
+  float:left;
+  border: 4px solid #eeeeee;
+  min-width: 163px;
+}
+
+.grid-list-5 .grid-cell{
+  width: 20%;
+}
+
+.grid-list-4 .grid-cell{
+  width: 25%;
+}
+
+.grid-list-3 .grid-cell{
+  width: 33.33333%;
+}
+
+.grid-list-2 .grid-cell{
+  width: 50%;
+}
+
+.grid-secondary-content{
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.5);
+  color:white;
+  min-width: 155px;
+}
+
+.grid-secondary-content.two-line{
+  margin-top: -90px;
+  height: 68px;
+}
+
+.grid-secondary-content.single-line{
+  margin-top: -70px;
+  height: 48px;
+}
+
+.grid-secondary-content.two-line.top{
+  top: -152px;
+  height: 68px;
+}
+
+.grid-secondary-content.single-line.top{
+  top:-172px;
+  height: 48px;
+}
+
+.grid-secondary-content p {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 16px 56px 16px 16px;
+}
+
+.grid-secondary-content-action{
+  color: white;
+  float:right;
+  position: absolute;
+}
+
+.two-line .grid-secondary-content-action{
+  top: 4px;
+  right: 0px;
+  padding: 16px;
+}
+
+.single-line .grid-secondary-content-action{
+  top: 12px;
+  right: 16px;
+}
+
+.grid-tile img{
+  width:100%;
+  height: auto;
+  min-width: 155px;
+}
+
+.cell-push-1-3{
+  left:33.333333%;
+  position: relative;
+}
+
+.cell-push-2-3{
+  left:66.666666%;
+  position: relative;
+}
+
+.cell-push-1-4{
+  left:25%;
+  position: relative;
+}
+
+.cell-push-2-4{
+  left:50%;
+  position: relative;
+}
+
+.cell-push-3-4{
+  left:75%;
+  position: relative;
+}
+
+.cell-push-1-5{
+  left:20%;
+  position: relative;
+}
+
+.cell-push-2-5{
+  left:40%;
+  position: relative;
+}
+
+.cell-push-3-5{
+  left:60%;
+  position: relative;
+}
+
+.cell-push-4-5{
+  left:80%;
+  position: relative;
+}

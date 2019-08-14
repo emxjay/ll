@@ -1,0 +1,19 @@
+{
+  "name": "lletter-ign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "materialize-css": "^0.100.2",
+    "materialize-grid-list": "^1.0.3"
+  },
+  "devDependencies": {
+    "cssnano": "^4.0.5"
+  }
+}
