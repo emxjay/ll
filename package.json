@@ -14,6 +14,6 @@
     "materialize-grid-list": "^1.0.3"
   },
   "devDependencies": {
-    "cssnano": "^4.0.5"
+    "cssnano": "^6.0.0"
   }
 }
